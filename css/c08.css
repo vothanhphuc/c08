@@ -166,6 +166,16 @@ body{
     line-height: 24px;
     width: 40%;
 }
+@media only screen and (max-width: 1200px){
+    .top_header{
+        width: 90%;
+        display: flex;
+        position: absolute;
+        left: 2%;
+        top: 5%;
+        border-left: solid 25px #FE043C;
+    }      
+}
 .book_now{
     width: 100%;
     height: 625px;
@@ -221,7 +231,21 @@ body{
     left: 25%;
     top: 50%;
 }
-
+@media only screen and (max-width: 1200px){
+    .fire{
+        width: 50%;
+        height: 400px;
+        margin-right: 40px;
+        position: relative;
+    }
+    .fire_1{
+        padding: 25px;
+        background-color: rgba(255,0,0,0.5);
+        position: absolute;
+        top: 47%;
+        height: 60%;
+    }
+}
 /* Phan advance */
 .advance{
     width: 100%;
@@ -303,6 +327,23 @@ body{
     justify-content: space-around;
     margin-left: 25%;
     padding-top: 5%;
+}
+@media only screen and (max-width: 1200px){
+    .red{
+        background-color: #FE043C;
+        width: 20%;
+        height: 3%;
+        position: absolute;
+        top: 20%;
+        left: 36%;
+    }
+    #img_01{
+        width: 30%;
+    }
+    #img_02{
+        width: 25%;
+        top: 25%;
+    }
 }
 
 /* section 04 */
@@ -400,6 +441,17 @@ body{
 .free img{
     width: 65%;
 }
+@media only screen and (max-width: 1200px){
+    .our_01{
+        width: 80%;
+    }
+    .our_02{
+        width: 95%;
+    }
+    .our_01 h2{
+        width: 145%;
+    }
+}
 
 /* sec_05 */
 .sec_05{
@@ -462,6 +514,22 @@ body{
     padding-left: 30px;
     background-color: #FFFFFF;
 }
+@media only screen and (max-width: 1200px){
+    .sec_05{
+        height: 2200px;
+    }
+    .item{
+        width: 35%;
+    }
+    .exp{
+        width: 35%;
+        height: 20%;
+        position: absolute;
+        top: 7%;
+        left: 35%;
+    }
+}
+
 /* SEC_06 */
 .sec_06{
     background-color: #FFEDDE;
@@ -552,4 +620,11 @@ body{
 }
 .nav_end li a{
     text-decoration: none;
+}
+@media only screen and (max-width: 1200px){
+    .sec_07 img{
+        width: 50%;
+        height: 100%;
+        top: 0%;
+    }
 }
