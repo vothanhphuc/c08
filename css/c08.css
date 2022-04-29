@@ -73,6 +73,33 @@ body{
     background-color: #FE043C;
     color: white;
 }
+.topnav{
+    background-color: orange;
+    position: relative;
+    display: none;
+}
+.topnav #myLinks {
+    display: none;
+}
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+.topnav a.icon {
+    
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}  
+
 .form{
     position: absolute;
     width: 450px;
@@ -133,6 +160,47 @@ body{
     margin-left: 200px;
     text-decoration: none;
 }
+@media only screen and (max-width: 564px){
+    .nav{
+        display: none;
+    }
+    .topnav{
+        display: block;
+        width: 50%;
+        position: absolute; 
+        left: 90%;
+        top: 0%;
+    }
+    .left h1{
+        font-size: 100px;
+        line-height: 150px;
+        text-align: Center;
+        top: 10%;
+    }
+    .dis{
+        font-size: 36px;
+        line-height: 48px;
+        top: 25%;
+    }
+    .form{
+        width: 100%;
+        top: 38%;
+    }
+    .left #raj{
+        top: 50%;
+    }
+    .left img{
+        top: 50%;
+        width: 60%;
+        left: 70%;
+    }
+    #hinh1{
+        top: 60%;
+        width: 75%;
+        left: 45%;
+    }
+
+}
 
 /* Phan SOME */
 .some{
@@ -165,16 +233,6 @@ body{
     font-size: 14px;
     line-height: 24px;
     width: 40%;
-}
-@media only screen and (max-width: 1200px){
-    .top_header{
-        width: 90%;
-        display: flex;
-        position: absolute;
-        left: 2%;
-        top: 5%;
-        border-left: solid 25px #FE043C;
-    }      
 }
 .book_now{
     width: 100%;
@@ -232,6 +290,14 @@ body{
     top: 50%;
 }
 @media only screen and (max-width: 1200px){
+    .top_header{
+        width: 90%;
+        display: flex;
+        position: absolute;
+        left: 2%;
+        top: 5%;
+        border-left: solid 25px #FE043C;
+    }      
     .fire{
         width: 50%;
         height: 400px;
@@ -245,6 +311,50 @@ body{
         top: 47%;
         height: 60%;
     }
+}
+@media only screen and (max-width: 564px){
+    .top_header{
+        display: block;
+        border-left: none;
+    }
+    .top_header h4{
+        font-size: 33px;
+        line-height: 48px;
+    }
+    .top_header p{
+        font-size: 14px;
+        list-style: 24px;
+        width: 100%;
+        margin-left: 15px;
+    }
+    .some{
+        height: 1600px;
+    }
+    .book_now{
+        height: 1400px;
+        top: 20%;
+        flex-direction: column;
+        justify-content: space-between;     
+    }
+    .fire{
+        width: 85%;
+        margin-left: 35px;
+    }
+    .fire img{
+        height: 100%;
+    }
+    .fire_1{
+        top: 50%;
+        height: 50%;
+    }
+    .see_more{
+        width: 100%;
+        height: 10%;
+    }
+    .see_more a{
+        top: 0%;
+    }
+
 }
 /* Phan advance */
 .advance{
@@ -343,6 +453,33 @@ body{
     #img_02{
         width: 25%;
         top: 25%;
+    }
+}
+@media only screen and (max-width: 564px){
+    .advance{
+        height: 502px;
+    }
+    #img_01{
+        height: 140%;
+        bottom: -17%;
+    }
+    #img_02{
+        top: 45%;
+    }
+    .ad_book{
+        width: 70%;
+    }
+    .red{
+        width: 35%;
+    }
+    .ad_book h5{
+        font-size: 24px;
+    }
+    .in_put{
+        width: 65%;
+    }
+    .dt{
+        width: 60%;
     }
 }
 
@@ -452,6 +589,32 @@ body{
         width: 145%;
     }
 }
+@media only screen and (max-width: 564px){
+    .our_01{
+        flex-direction: column;
+        top: 2%;
+        height: 10%;
+    }
+    .our_01 h2{
+        margin: 35px;
+        width: 70%;
+    }
+    .our_01 p{
+        padding: 0;
+    }
+    .our_02{
+        flex-direction: column;
+        left: 0%;
+    }
+    .adv_food{
+        width: 100%;
+    }
+    .free{
+        width: 65%;
+        margin-left: 20%;
+        margin-top: 15%
+    }
+}
 
 /* sec_05 */
 .sec_05{
@@ -529,6 +692,23 @@ body{
         left: 35%;
     }
 }
+@media only screen and (max-width: 564px){
+    .sec_05{
+        height: 4000px;
+    }
+    .exp{
+        width: 100%;
+        height: 10%;
+        top: 1%;
+        left: 0%;
+    }
+    .hand{
+        top: 10%;
+    }
+    .item{
+        width: 95%;
+    }
+}
 
 /* SEC_06 */
 .sec_06{
@@ -568,6 +748,23 @@ body{
     left: 55%;
     top: 9%;
 }
+@media only screen and (max-width: 564px){
+    .downl{
+        width: 75%;
+        top: 5%;
+    }
+    #hinh01{
+        width: 80%;
+        left: -15%;
+        top: 50%;
+    }
+    #hinh03{
+        width: 49%;
+        left: 30%;
+        top: 40%;
+    }
+
+}
 
 /* SEC-07 */
 .sec_07{
@@ -606,6 +803,9 @@ body{
     flex-direction: column;
     justify-content: space-around;
 }
+.in_put ::placeholder{
+    padding-left: 25px;
+}
 .nav_end{
     color: #707070;
     font-size: 16px;
@@ -626,5 +826,42 @@ body{
         width: 50%;
         height: 100%;
         top: 0%;
+    }
+}
+@media only screen and (max-width: 564px){
+    .sec_07{
+        height: 421px;
+    }
+    .sec_07 img{
+        width: 40%;
+        left: -10%;
+    }
+    .get{
+        width: 90%;
+        height: 85%;
+        position: relative;
+    }
+    .get h1{
+        font-size: 24px;
+        width: 100%;
+    }
+    .get p{
+        margin-bottom: 0% ;
+        width: 75%;
+        position: absolute;
+        left: 15%;
+        top: 35%;
+    }
+    .in_put{
+        top: 5%;
+        left: 20%;
+        margin-left: 0%;
+    }
+    .in_put input[type="text" i]{
+        border-radius: 30px;
+    }
+    .in_put input[type="submit" i]{
+        width: 20%;
+        border-radius: 50%;
     }
 }
