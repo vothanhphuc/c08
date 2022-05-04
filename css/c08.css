@@ -199,7 +199,9 @@ body{
         width: 75%;
         left: 45%;
     }
-
+    .right a{
+        display: none;
+    }
 }
 
 /* Phan SOME */
